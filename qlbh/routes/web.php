@@ -13,7 +13,7 @@
 
 Route::get('/', function () {
     return view('welcome');
-});
+})->name('home-page');
 
 Route::group(['middleware' => 'auth'], function () {
     //    Route::get('/link1', function ()    {
