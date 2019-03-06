@@ -23,3 +23,18 @@ Route::group(['middleware' => 'auth'], function () {
     //Please do not remove this if you want adminlte:route and adminlte:link commands to works correctly.
     #adminlte_routes
 });
+Route::get('home', function() {
+    return view('home');
+});
+Route::get('thanhtoan', function() {
+    return view('thanh_toan');
+});
+Route::get('', function() {
+    return view('home');
+});
+Route::get('home', function() {
+    return view('home');
+});
+Route::get('home', function() {
+    return view('home');
+});
