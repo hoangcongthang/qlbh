@@ -26,15 +26,6 @@ Route::group(['middleware' => 'auth'], function () {
 Route::get('home', function() {
     return view('home');
 });
-Route::get('thanhtoan', function() {
-    return view('thanh_toan');
-});
-Route::get('', function() {
-    return view('home');
-});
-Route::get('home', function() {
-    return view('home');
-});
-Route::get('home', function() {
-    return view('home');
+Route::get('sunit-form', function() {
+    return "Chó";
 });

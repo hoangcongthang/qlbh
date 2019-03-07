@@ -2,6 +2,7 @@
 
 use Illuminate\Database\Seeder;
 
+
 class DatabaseSeeder extends Seeder
 {
     /**
@@ -11,6 +12,12 @@ class DatabaseSeeder extends Seeder
      */
     public function run()
     {
-        // $this->call(UsersTableSeeder::class);
+        $timestamp = date('Y-m-d H:i:s');
+
+        \DB::table('danhmucs')->insert([
+            'tendanhmuc'=>'BanhMi',
+            'created_at'=>$timestamp,
+            'updated_at'=>$timestamp
+        ]);
     }
 }
