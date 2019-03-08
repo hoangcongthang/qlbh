@@ -23,10 +23,20 @@ Route::group(['middleware' => 'auth'], function () {
     //Please do not remove this if you want adminlte:route and adminlte:link commands to works correctly.
     #adminlte_routes
 });
+
+
+//Route "home"
 Route::get('index',[
 	'as'   => 'trang-chu',
 	'uses' => 'PageController@getIndex' 
 ]);
+
+////Route "about"
+Route::get('about',[
+	'as'   => 'trang-about',
+	'uses' => 'PageController@getAbout'
+]);
+
 
 
 

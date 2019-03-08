@@ -1,4 +1,5 @@
-
+@extends('master')
+@section('content')
 
 <!-- start slider / Tạo vùng chứa file ảnh tự động cuộn-->
     <div class="slider">
@@ -135,6 +136,9 @@
         <!---kết thúc toàn bộ vùng ảnh tự chuyển động---->
     </div>
     <!-- kết thúc toàn vùng ảnh -->
+
+
+
     <!-- Phân vùng chứa ảnh của 1 số sản phẩm dặc biệt-->
     <div class="top_bg">
         <div class="wrap">
@@ -156,6 +160,9 @@
         </div>
     </div>
     <!-- kết thúc phân vùng chứa ảnh sản phẩm đặc biệt -->
+
+
+
     <!-- Phân vùng chứa ảnh của sản phẩm nổi bật-->
     <div class="main_bg">
         <div class="wrap">
@@ -287,6 +294,9 @@
         <!-- kết thúc khu vực gói phần chính -->
     </div>
     <!-- kết thúc phân vùng sp nổi bật -->
+
+
+
     <!-- Bắt đầu footer trên -->
     <div class="footer_top">
         <div class="wrap">
@@ -358,6 +368,8 @@
     </div>
     <!-- kết thúc footer trên -->
 
+
+
     <!-- bắt đầu footer giữa  -->
     <div class="footer_mid">
         <div class="wrap">
@@ -383,3 +395,5 @@
         </div>
     </div>
     <!-- kết thúc footer giữa -->
+
+@endsection
