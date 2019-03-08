@@ -23,6 +23,33 @@ Route::group(['middleware' => 'auth'], function () {
     //Please do not remove this if you want adminlte:route and adminlte:link commands to works correctly.
     #adminlte_routes
 });
-Route::get('danh-muc', function() {
-    return view('test3');
+Route::get('index',[
+	'as'   => 'trang-chu',
+	'uses' => 'PageController@getIndex' 
+]);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Route::get('themdanhmuc', function(){
+	$danhmuc = new App\danhmuc;
+	$danhmuc->tendanhmuc = 'banh mi';
+	$danhmuc->mota = 'cac loai banh tu bot mi';
+	$danhmuc->hinhanh = 'duong dan anh';
+	$danhmuc->save();
+	echo "da them danh muc";
 });
