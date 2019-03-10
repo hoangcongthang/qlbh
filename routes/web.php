@@ -1,5 +1,5 @@
 <?php
-
+use app\sanphams;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -23,9 +23,53 @@ Route::group(['middleware' => 'auth'], function () {
     //Please do not remove this if you want adminlte:route and adminlte:link commands to works correctly.
     #adminlte_routes
 });
-Route::get('home', function() {
-    return view('home');
+// -----------------------HOME----------------------
+Route::get('index', function() {
+    return view('index');
 });
-Route::get('sunit-form', function() {
-    return "Chó";
+
+
+// ---------------------DETAIL---------------------
+Route::get('details', function() {
+    return view('details');
 });
+
+
+// ------------------------BAKERY-------------------------
+Route::get('bakery','SanphamController@ShowBakey');
+
+
+
+// --------------------SWEET--------------------
+Route::get('sweets','SanphamController@ShowSweets');
+
+
+
+
+// ---------------------------------ABOUT-----------------------
+Route::get('about', function() {
+    return view('about');
+});
+
+// -------------------CONTACT-----------------------
+Route::get('blog', function() {
+    return view('blog');
+});
+
+// -------------------CONTACT-----------------------
+Route::get('contact', function() {
+    return view('contact');
+});
+
+// ------------------------GIT-----------------------
+Route::get('gift', function() {
+    return view('gift');
+});
+
+// ------------------------CHECKOUT----------------------
+
+Route::get('checkout', function() {
+    return view('checkout');
+});
+
+Route::get('test', 'SanphamController@index'); 

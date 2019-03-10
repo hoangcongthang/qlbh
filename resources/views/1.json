@@ -1,0 +1,36 @@
+ [
+                'tensanpham'=>'multicolored cake',
+                'madanhmuc'=>'45',
+                'mota'=>'multicolored cake',
+                'gia'=>'10000',
+                'hinhanh'=>'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQzXd1nni2m2dC_xQPnRIELOYsKzR4OaWnn8JIaLbY0lE15nCdlwA',
+                'created_at'=>$timestamp,
+                'updated_at'=>$timestamp
+            ],
+            [
+                'tensanpham'=>'Peggy Porschen',
+                'madanhmuc'=>'45',
+                'mota'=>'Peggy PorschenPeggy PorschenPeggy PorschenPeggy PorschenPeggy Porschen',
+                'gia'=>'10000',
+                'hinhanh'=>'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQzXd1nni2m2dC_xQPnRIELOYsKzR4OaWnn8JIaLbY0lE15nCdlwA',
+                'created_at'=>$timestamp,
+                'updated_at'=>$timestamp
+            ],
+            [
+                'tensanpham'=>'multicolored cake',
+                'madanhmuc'=>'45',
+                'mota'=>'multicolored cake',
+                'gia'=>'10000',
+                'hinhanh'=>'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQzXd1nni2m2dC_xQPnRIELOYsKzR4OaWnn8JIaLbY0lE15nCdlwA',
+                'created_at'=>$timestamp,
+                'updated_at'=>$timestamp
+            ],
+            [
+                'tensanpham'=>'Peggy Porschen',
+                'madanhmuc'=>'45',
+                'mota'=>'Peggy PorschenPeggy PorschenPeggy PorschenPeggy PorschenPeggy Porschen',
+                'gia'=>'10000',
+                'hinhanh'=>'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQzXd1nni2m2dC_xQPnRIELOYsKzR4OaWnn8JIaLbY0lE15nCdlwA',
+                'created_at'=>$timestamp,
+                'updated_at'=>$timestamp
+            ]

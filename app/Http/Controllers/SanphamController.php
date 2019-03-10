@@ -2,9 +2,10 @@
 
 namespace App\Http\Controllers;
 
-use App\sanpham;
+use App\Sanpham;
 use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
+use DB;
 
 class SanphamController extends Controller
 {
@@ -15,7 +16,8 @@ class SanphamController extends Controller
      */
     public function index()
     {
-        //
+        
+        
     }
 
     /**
@@ -42,10 +44,10 @@ class SanphamController extends Controller
     /**
      * Display the specified resource.
      *
-     * @param  \App\sanpham  $sanpham
+     * @param  \App\Sanpham  $sanpham
      * @return \Illuminate\Http\Response
      */
-    public function show(sanpham $sanpham)
+    public function show(Sanpham $sanpham)
     {
         //
     }
@@ -53,11 +55,11 @@ class SanphamController extends Controller
     /**
      * Show the form for editing the specified resource.
      *
-     * @param  \App\sanpham  $sanpham
+     * @param  \App\Sanpham  $sanpham
      * @return \Illuminate\Http\Response
      */
-    public function edit(sanpham $sanpham)
-    {
+    public function edit(Sanpham $sanpham)
+    {   
         //
     }
 
@@ -65,10 +67,10 @@ class SanphamController extends Controller
      * Update the specified resource in storage.
      *
      * @param  \Illuminate\Http\Request  $request
-     * @param  \App\sanpham  $sanpham
+     * @param  \App\Sanpham  $sanpham
      * @return \Illuminate\Http\Response
      */
-    public function update(Request $request, sanpham $sanpham)
+    public function update(Request $request, Sanpham $sanpham)
     {
         //
     }
@@ -76,11 +78,33 @@ class SanphamController extends Controller
     /**
      * Remove the specified resource from storage.
      *
-     * @param  \App\sanpham  $sanpham
+     * @param  \App\Sanpham  $sanpham
      * @return \Illuminate\Http\Response
      */
-    public function destroy(sanpham $sanpham)
+    public function destroy(Sanpham $sanpham)
     {
         //
+    }
+    public function ShowBakey(Request $request)
+    {
+        // cach 1
+        $sanphams = DB::table('sanphams')->where('madanhmuc','45')->paginate(6);
+        return view("bakery",compact('sanphams'));
+        // cach 2
+
+        // $sanphams = Sanpham::all();
+         // $sanphams = json_encode($sanphams);
+        // return view("bakery",compact('sanphams'));
+    }
+    public function ShowSweets(Request $request)
+    {
+        // cach 1
+        $sanphams = DB::table('sanphams')->where('madanhmuc','46')->paginate(6);
+        return view("sweet",compact('sanphams'));
+        // cach 2
+
+        // $sanphams = Sanpham::all();
+         // $sanphams = json_encode($sanphams);
+        // return view("bakery",compact('sanphams'));
     }
 }
