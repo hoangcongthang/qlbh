@@ -49,14 +49,14 @@
             <div class="header">
                 <!-- Logo -->
                 <div class="logo">
-                    <a href="index.html"><img src="source/images/logo.png" alt=""/></a>
+                    <a href="index"><img src="source/images/logo.png" alt=""/></a>
                 </div>
                 <!-- login / register -->
                 <div class="log_reg">
                     <ul>
-                        <li><a href="login.html">Login</a> </li>
+                        <li><a href="login-bakery">Login</a> </li>
                         <span class="log"> or </span>
-                        <li><a href="register.html">Register</a> </li>
+                        <li><a href="register-bakery">Register</a> </li>
                         <div class="clear"></div>
                     </ul>
                 </div>
@@ -70,13 +70,13 @@
             <!-- Thanh navigation bar  -->
             <div class="menu">
                 <ul>
-                    <li class="active"><a href="index.html">Home</a></li>
-                    <li><a href="about.html">About</a></li>
-                    <li><a href="products.html">Bakery</a></li>
-                    <li><a href="sweets.html">Sweets</a></li>
-                    <li> <a href="gift hampers.html" title=""> Gift</a></li>
-                    <li><a href="blog.html">Blog</a></li>
-                    <li><a href="contact.html">Contact</a></li>
+                    <li class="active"><a href="index">Home</a></li>
+                    <li><a href="about">About</a></li>
+                    <li><a href="bakery">Bakery</a></li>
+                    <li><a href="sweets">Sweets</a></li>
+                    <li> <a href="gift" title=""> Gift</a></li>
+                    <li><a href="blog">Blog</a></li>
+                    <li><a href="contact">Contact</a></li>
                     <div class="clear"></div>
                 </ul>
             </div>
@@ -86,13 +86,13 @@
             </div>
             <nav id="menu-left">
                 <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="about.html">About</a></li>
-                    <li><a href="products.html">Bakery</a></li>
-                    <li><a href="products.html">Sweets</a></li>
-                    <li> <a href="gift hampers.html" title=""> Gift</a></li>
-                    <li><a href="blog.html">Blog</a></li>
-                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="index">Home</a></li>
+                    <li><a href="about">About</a></li>
+                    <li><a href="bakery">Bakery</a></li>
+                    <li><a href="sweets">Sweets</a></li>
+                    <li> <a href="gift" title=""> Gift</a></li>
+                    <li><a href="blog">Blog</a></li>
+                    <li><a href="contact">Contact</a></li>
                     <div class="clear"></div>
                 </ul>
             </nav>
@@ -110,7 +110,6 @@
     
     <main class="py-4">
        @yield('content') 
-    
     
 
         <!-- bắt đầu footer cuối -->
@@ -152,7 +151,9 @@
             </div>
         </div>
         <!-- kết thúc footer cuối -->
+
     </main>
+
 </body>
 
 </html>

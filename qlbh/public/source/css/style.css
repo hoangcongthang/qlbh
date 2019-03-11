@@ -6,6 +6,19 @@ body {
 	background:#ffffff;
 	font-size: 100%;
 }
+
+ul.pagination {
+    text-align: center;
+}
+
+li.page-item {
+    display: inline-block;
+    background: #57C5A0;
+    width: 2%;
+    text-align: center;
+    color: white;
+    padding: 8px;
+}
 .wrap{
 	margin:0 auto;
 	width:80%;
@@ -276,7 +289,7 @@ h4.style{
 .header_right ul li a > i.cart{
 	background: url(../images/cart.png) no-repeat 5px 8px;
 }
-/* Tạo Navigation bar bên trái khi thu hẹp màn hình*/
+/* TÃ¡ÂºÂ¡o Navigation bar bÃƒÂªn trÃƒÂ¡i khi thu hÃ¡ÂºÂ¹p mÃƒÂ n hÃƒÂ¬nh*/
 .navicon{
 	display: none;
 	width: 25px;
@@ -286,7 +299,7 @@ h4.style{
 	left: 6.33333%;
 	background: url(../images/nav-icon.png) no-repeat;
 }
-/*-- Main phụ của index --*/
+/*-- Main phÃ¡Â»Â¥ cÃ¡Â»Â§a index --*/
 .main1{
 	padding: 4% 4% 2%;
 }
@@ -321,7 +334,7 @@ h4.style{
 .image1_of_3 span.tag:hover{
 	background: rgba(0, 0, 0, 0.61);
 }
-/* Main chính */
+/* Main chÃƒÂ­nh */
 .main_bg{
 	background: #EBE7DF;
 }
@@ -354,7 +367,7 @@ h4.style{
 	background:#BCB4A7;
 	color: #fff;
 }
-/* Bắt đầu phân vùng ảnh của sp mới */
+/* BÃ¡ÂºÂ¯t Ã„â€˜Ã¡ÂºÂ§u phÃƒÂ¢n vÃƒÂ¹ng Ã¡ÂºÂ£nh cÃ¡Â»Â§a sp mÃ¡Â»â€ºi */
 .grids_of_3{
 	text-align:center;
 	display: block;
@@ -365,8 +378,9 @@ h4.style{
 	margin-left:4.3333%;
 	background: #ffffff;
 	position: relative;
+	margin-bottom: 5%;
 }
-.grid1_of_3:first-child{
+.grid1_of_3:nth-child(3n+1){
 	margin-left: 0;
 }
 .grid1_of_3 a{
@@ -418,7 +432,7 @@ h4.style{
 	width: 60px;
 	opacity: 0.9;
 }
-/* Vùng giới thiệu freeship và các chính sách liên quan */
+/* VÃƒÂ¹ng giÃ¡Â»â€ºi thiÃ¡Â»â€¡u freeship vÃƒÂ  cÃƒÂ¡c chÃƒÂ­nh sÃƒÂ¡ch liÃƒÂªn quan */
 .grids_of_3{
 	display: block;
 	margin: 4% 0;
@@ -485,7 +499,7 @@ h4.style{
 .date_text  h4 a:hover{
 	color: #57C5A0;
 }
-/* Làm phầm footer trên cùng */
+/* LÃƒÂ m phÃ¡ÂºÂ§m footer trÃƒÂªn cÃƒÂ¹ng */
 .footer_top{
 	background: #242424;
 }
@@ -544,7 +558,7 @@ h4.style{
 .payment_logo li:first-child, .delivery li:first-child{
 	margin-left: 0;
 }
-/* Khu vực footer giữa */
+/* Khu vÃ¡Â»Â±c footer giÃ¡Â»Â¯a */
 .footer_mid{
 	border-top:1px solid #141414;
 	background: #242424;
@@ -581,7 +595,7 @@ h4.style{
 .f_search form input[type="submit"]:hover{
 	background: #5d5d5d url('../images/search.png') no-repeat 16px 15px;
 }
-/* icon mạng xã hội */
+/* icon mÃ¡ÂºÂ¡ng xÃƒÂ£ hÃ¡Â»â„¢i */
 .social_icons {
 	float:right;
 }
@@ -666,7 +680,7 @@ h4.style{
 .copy p a:hover{
 	color: #7D7D7D;
 }
-/* Thiết kế trang about */
+/* ThiÃ¡ÂºÂ¿t kÃ¡ÂºÂ¿ trang about */
 .about{
 	display: block;
 }

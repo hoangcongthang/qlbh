@@ -31,10 +31,58 @@ Route::get('index',[
 	'uses' => 'PageController@getIndex' 
 ]);
 
-////Route "about"
+//Route "login"
+Route::get('login-bakery',[
+	'as'   => 'trang-login',
+	'uses' => 'PageController@getLogin' 
+]);
+
+//Route "register"
+Route::get('register-bakery',[
+	'as'   => 'trang-register',
+	'uses' => 'PageController@getRegister' 
+]);
+
+//Route "about"
 Route::get('about',[
 	'as'   => 'trang-about',
 	'uses' => 'PageController@getAbout'
+]);
+
+//Route "bakery"
+Route::get('bakery',[
+	'as'   => 'trang-bakery',
+	'uses' => 'PageController@getBakery'
+]);
+
+//Route "sweets"
+Route::get('sweets',[
+	'as'   => 'trang-sweets',
+	'uses' => 'PageController@getSweets'
+]);
+
+//Route "gift"
+Route::get('gift',[
+	'as'   => 'trang-gift',
+	'uses' => 'PageController@getGift'
+]);
+
+//Route "blog"
+Route::get('blog',[
+	'as'   => 'trang-blog',
+	'uses' => 'PageController@getBlog'
+]);
+
+//Route "contact"
+Route::get('contact',[
+	'as'   => 'trang-contact',
+	'uses' => 'PageController@getContact'
+]);
+
+//Route "details"
+Route::get('details',[
+	'as'   => 'trang-details',
+	'uses' => 'PageController@getDetails'
 ]);
 
 

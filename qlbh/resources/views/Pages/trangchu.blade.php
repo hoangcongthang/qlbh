@@ -11,7 +11,7 @@
                     <ul class="ei-slider-large">
                         <!-- ảnh 1 -->
                         <li>
-                            <a href="products.html" title=""><img src="source/images/slider-image1.jpg" alt="image06" /></a>
+                            <a href="products" title=""><img src="source/images/slider-image1.jpg" alt="image06" /></a>
                             <!-- <div class="ei-title">
                                 <h3 class="btn">$6.99</h3>
                                 <h2>Strawboffee Pie<br>  New product in Sept</h2>
@@ -26,7 +26,7 @@
                         </li>
                         <!-- ảnh 2 -->
                         <li>
-                            <a href="products.html" title=""><img src="source/images/slider-image2.jpg" alt="image01" /></a>
+                            <a href="products" title=""><img src="source/images/slider-image2.jpg" alt="image01" /></a>
                             <!-- <div class="ei-title">
                                 <h3 class="btn">$15.99</h3>
                                 <h2>Birthday Cake <br>  For special event</h2>
@@ -41,7 +41,7 @@
                         </li>
                         <!-- ảnh 3 -->
                         <li>
-                            <a href="products.html" title=""><img src="source/images/slider-image3.jpg" alt="image02" /></a>
+                            <a href="products" title=""><img src="source/images/slider-image3.jpg" alt="image02" /></a>
                             <!-- <div class="ei-title">
                                 <h3 class="btn">$3.99</h3>
                                 <h2>Prada Cake<br> Best selling in 2017</h2>
@@ -56,7 +56,7 @@
                         </li>
                         <!-- ảnh 4 -->
                         <li>
-                            <a href="products.html" title=""><img src="source/images/slider-image4.jpg" alt="image03" /></a>
+                            <a href="products" title=""><img src="source/images/slider-image4.jpg" alt="image03" /></a>
                             <!-- <div class="ei-title">
                                 <h3 class="btn">$10.99</h3>
                                 <h2>Mix combo <br>  Best selling in July</h2>
@@ -71,7 +71,7 @@
                         </li>
                         <!-- ảnh 5 -->
                         <li>
-                            <a href="products.html" title=""><img src="source/images/slider-image6.jpg" alt="image04" /></a>
+                            <a href="products" title=""><img src="source/images/slider-image6.jpg" alt="image04" /></a>
                             <!-- <div class="ei-title">
                                 <h3 class="btn">$9.99</h3>
                                 <h2>Bespoke Cakes<br>   Most popular in Aug </h2>
@@ -86,7 +86,7 @@
                         </li>
                         <!-- ảnh 6 -->
                         <li>
-                            <a href="products.html" title=""><img src="source/images/slider-image5.jpg" alt="image05" /></a>
+                            <a href="products" title=""><img src="source/images/slider-image5.jpg" alt="image05" /></a>
                             <!-- <div class="ei-title">
                                 <h3 class="btn">$2.99</h3>
                                 <h2>Tiramisu Cake<br> The most cuties Cake</h2>
@@ -101,7 +101,7 @@
                         </li>
                         <!-- ảnh 7 -->
                         <li>
-                            <a href="products.html" title=""><img src="source/images/slider-image7.jpg" alt="image07" /></a>
+                            <a href="products" title=""><img src="source/images/slider-image7.jpg" alt="image07" /></a>
                             <!-- <div class="ei-title">
                                 <h3 class="btn">$4.99</h3>
                                 <h2>Sweet Donuts  <br> For every one</h2>
@@ -145,15 +145,15 @@
             <div class="main1">
                 <div class="image1_of_3">
                     <img src="source/images/img1.jpg" alt="" />
-                    <a href="details.html"><span class="tag">on sale</span></a>
+                    <a href="details"><span class="tag">on sale</span></a>
                 </div>
                 <div class="image1_of_3">
                     <img src="source/images/img2.jpg" alt="" />
-                    <a href="details.html"><span class="tag">special offers</span></a>
+                    <a href="details"><span class="tag">special offers</span></a>
                 </div>
                 <div class="image1_of_3">
                     <img src="source/images/img3.jpg" alt="" />
-                    <a href="details.html"><span class="tag">must have</span></a>
+                    <a href="details"><span class="tag">must have</span></a>
                 </div>
                 <div class="clear"></div>
             </div>
@@ -180,7 +180,7 @@
                 <div class="grids_of_3">
                     <!-- ảnh 1 -->
                     <div class="grid1_of_3">
-                        <a href="details.html">
+                        <a href="details">
                             <img src="source/images/baked-cookies.jpg" alt=""/>
                             <h3>baked cookies</h3>
                             <span class="price">$5,99</span>
@@ -188,7 +188,7 @@
                     </div>
                     <!-- ảnh 2 -->
                     <div class="grid1_of_3">
-                        <a href="details.html">
+                        <a href="details">
                             <img src="source/images/pink-miringues.jpg" alt=""/>
                             <h3>pink-miringues</h3>
                             <span class="price">$8,99</span>
@@ -197,8 +197,8 @@
                     </div>
                     <!-- ảnh 3 -->
                     <div class="grid1_of_3">
-                        <a href="details.html">
-                            <img src="source/images/Éclair.jpg" alt=""/>
+                        <a href="details">
+                            <img src="source/images/Eclair.jpg" alt=""/>
                             <h3>Éclair</h3>
                             <span class="price">$5,99</span>
                         </a>
@@ -216,7 +216,7 @@
                 <div class="grids_of_3">
                     <!-- ảnh 1 -->
                     <div class="grid1_of_3">
-                        <a href="details.html">
+                        <a href="details">
                             <img src="source/images/Bara-Brith.jpg" alt=""/>
                             <h3>Bara Brith</h3>
                             <span class="price">$5,99</span>
@@ -224,7 +224,7 @@
                     </div>
                     <!-- ảnh 2 -->
                     <div class="grid1_of_3">
-                        <a href="details.html">
+                        <a href="details">
                             <img src="source/images/two-macarons-in-square-white-plate.jpg" alt=""/>
                             <h3>macarons</h3>
                             <span class="price">$5,99</span>
@@ -232,7 +232,7 @@
                     </div>
                     <!-- ảnh 3 -->
                     <div class="grid1_of_3">
-                        <a href="details.html">
+                        <a href="details">
                             <img src="source/images/four-baked-donuts.jpg" alt=""/>
                             <h3>baked donuts</h3>
                             <span class="price">$15,99</span>
