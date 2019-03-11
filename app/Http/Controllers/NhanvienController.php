@@ -2,11 +2,11 @@
 
 namespace App\Http\Controllers;
 
-use App\sanpham;
+use App\nhanvien;
 use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
 
-class SanphamController extends Controller
+class NhanvienController extends Controller
 {
     /**
      * Display a listing of the resource.
@@ -42,10 +42,10 @@ class SanphamController extends Controller
     /**
      * Display the specified resource.
      *
-     * @param  \App\sanpham  $sanpham
+     * @param  \App\nhanvien  $nhanvien
      * @return \Illuminate\Http\Response
      */
-    public function show(sanpham $sanpham)
+    public function show(nhanvien $nhanvien)
     {
         //
     }
@@ -53,10 +53,10 @@ class SanphamController extends Controller
     /**
      * Show the form for editing the specified resource.
      *
-     * @param  \App\sanpham  $sanpham
+     * @param  \App\nhanvien  $nhanvien
      * @return \Illuminate\Http\Response
      */
-    public function edit(sanpham $sanpham)
+    public function edit(nhanvien $nhanvien)
     {
         //
     }
@@ -65,10 +65,10 @@ class SanphamController extends Controller
      * Update the specified resource in storage.
      *
      * @param  \Illuminate\Http\Request  $request
-     * @param  \App\sanpham  $sanpham
+     * @param  \App\nhanvien  $nhanvien
      * @return \Illuminate\Http\Response
      */
-    public function update(Request $request, sanpham $sanpham)
+    public function update(Request $request, nhanvien $nhanvien)
     {
         //
     }
@@ -76,10 +76,10 @@ class SanphamController extends Controller
     /**
      * Remove the specified resource from storage.
      *
-     * @param  \App\sanpham  $sanpham
+     * @param  \App\nhanvien  $nhanvien
      * @return \Illuminate\Http\Response
      */
-    public function destroy(sanpham $sanpham)
+    public function destroy(nhanvien $nhanvien)
     {
         //
     }

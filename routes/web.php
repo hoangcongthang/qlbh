@@ -1,5 +1,5 @@
 <?php
-use app\sanphams;
+
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -13,7 +13,7 @@ use app\sanphams;
 
 Route::get('/', function () {
     return view('welcome');
-})->name('home-page');
+});
 
 Route::group(['middleware' => 'auth'], function () {
     //    Route::get('/link1', function ()    {
@@ -23,53 +23,91 @@ Route::group(['middleware' => 'auth'], function () {
     //Please do not remove this if you want adminlte:route and adminlte:link commands to works correctly.
     #adminlte_routes
 });
-// -----------------------HOME----------------------
-Route::get('index', function() {
-    return view('index');
+
+
+//Route "home"
+Route::get('index',[
+	'as'   => 'trang-chu',
+	'uses' => 'PageController@getIndex' 
+]);
+
+//Route "login"
+Route::get('login-bakery',[
+	'as'   => 'trang-login',
+	'uses' => 'PageController@getLogin' 
+]);
+
+//Route "register"
+Route::get('register-bakery',[
+	'as'   => 'trang-register',
+	'uses' => 'PageController@getRegister' 
+]);
+
+//Route "about"
+Route::get('about',[
+	'as'   => 'trang-about',
+	'uses' => 'PageController@getAbout'
+]);
+
+//Route "bakery"
+Route::get('bakery',[
+	'as'   => 'trang-bakery',
+	'uses' => 'PageController@getBakery'
+]);
+
+//Route "sweets"
+Route::get('sweets',[
+	'as'   => 'trang-sweets',
+	'uses' => 'PageController@getSweets'
+]);
+
+//Route "gift"
+Route::get('gift',[
+	'as'   => 'trang-gift',
+	'uses' => 'PageController@getGift'
+]);
+
+//Route "blog"
+Route::get('blog',[
+	'as'   => 'trang-blog',
+	'uses' => 'PageController@getBlog'
+]);
+
+//Route "contact"
+Route::get('contact',[
+	'as'   => 'trang-contact',
+	'uses' => 'PageController@getContact'
+]);
+
+//Route "details"
+Route::get('details',[
+	'as'   => 'trang-details',
+	'uses' => 'PageController@getDetails'
+]);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Route::get('themdanhmuc', function(){
+	$danhmuc = new App\danhmuc;
+	$danhmuc->tendanhmuc = 'banh mi';
+	$danhmuc->mota = 'cac loai banh tu bot mi';
+	$danhmuc->hinhanh = 'duong dan anh';
+	$danhmuc->save();
+	echo "da them danh muc";
 });
-
-
-// ---------------------DETAIL---------------------
-Route::get('details', function() {
-    return view('details');
-});
-
-
-// ------------------------BAKERY-------------------------
-Route::get('bakery','SanphamController@ShowBakey');
-
-
-
-// --------------------SWEET--------------------
-Route::get('sweets','SanphamController@ShowSweets');
-
-
-
-
-// ---------------------------------ABOUT-----------------------
-Route::get('about', function() {
-    return view('about');
-});
-
-// -------------------CONTACT-----------------------
-Route::get('blog', function() {
-    return view('blog');
-});
-
-// -------------------CONTACT-----------------------
-Route::get('contact', function() {
-    return view('contact');
-});
-
-// ------------------------GIT-----------------------
-Route::get('gift', function() {
-    return view('gift');
-});
-
-// ------------------------CHECKOUT----------------------
-
-Route::get('checkout', function() {
-    return view('checkout');
-});
-
-Route::get('test', 'SanphamController@index'); 

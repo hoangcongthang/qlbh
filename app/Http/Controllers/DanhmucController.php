@@ -2,11 +2,11 @@
 
 namespace App\Http\Controllers;
 
-use App\sanpham;
+use App\danhmuc;
 use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
 
-class SanphamController extends Controller
+class DanhmucController extends Controller
 {
     /**
      * Display a listing of the resource.
@@ -42,10 +42,10 @@ class SanphamController extends Controller
     /**
      * Display the specified resource.
      *
-     * @param  \App\sanpham  $sanpham
+     * @param  \App\danhmuc  $danhmuc
      * @return \Illuminate\Http\Response
      */
-    public function show(sanpham $sanpham)
+    public function show(danhmuc $danhmuc)
     {
         //
     }
@@ -53,10 +53,10 @@ class SanphamController extends Controller
     /**
      * Show the form for editing the specified resource.
      *
-     * @param  \App\sanpham  $sanpham
+     * @param  \App\danhmuc  $danhmuc
      * @return \Illuminate\Http\Response
      */
-    public function edit(sanpham $sanpham)
+    public function edit(danhmuc $danhmuc)
     {
         //
     }
@@ -65,10 +65,10 @@ class SanphamController extends Controller
      * Update the specified resource in storage.
      *
      * @param  \Illuminate\Http\Request  $request
-     * @param  \App\sanpham  $sanpham
+     * @param  \App\danhmuc  $danhmuc
      * @return \Illuminate\Http\Response
      */
-    public function update(Request $request, sanpham $sanpham)
+    public function update(Request $request, danhmuc $danhmuc)
     {
         //
     }
@@ -76,10 +76,10 @@ class SanphamController extends Controller
     /**
      * Remove the specified resource from storage.
      *
-     * @param  \App\sanpham  $sanpham
+     * @param  \App\danhmuc  $danhmuc
      * @return \Illuminate\Http\Response
      */
-    public function destroy(sanpham $sanpham)
+    public function destroy(danhmuc $danhmuc)
     {
         //
     }
